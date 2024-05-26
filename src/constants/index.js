@@ -17,6 +17,8 @@ import {
   postgresql,
   rubyrails,
   graphql,
+  python,
+  php,
   komikult,
   leaderboard,
   math,
@@ -27,6 +29,9 @@ import {
   dcc,
   kelhel,
   microverse,
+  spruce,
+  wingo,
+  truly,
 } from '../assets';
 
 export const navLinks = [
@@ -65,12 +70,20 @@ const services = [
 
 const technologies = [
   {
+    name: 'python',
+    icon: python,
+  },
+  {
     name: 'HTML 5',
     icon: html,
   },
   {
     name: 'CSS 3',
     icon: css,
+  },
+  {
+    name: 'php',
+    icon: php,
   },
   {
     name: 'JavaScript',
@@ -84,10 +97,10 @@ const technologies = [
     name: 'React JS',
     icon: reactjs,
   },
-  {
-    name: 'Redux Toolkit',
-    icon: redux,
-  },
+  // {
+  //   name: 'Redux Toolkit',
+  //   icon: redux,
+  // },
   {
     name: 'Tailwind CSS',
     icon: tailwind,
@@ -96,14 +109,14 @@ const technologies = [
     name: 'Node JS',
     icon: nodejs,
   },
-  {
-    name: 'Rails',
-    icon: rubyrails,
-  },
-  {
-    name: 'graphql',
-    icon: graphql,
-  },
+  // {
+  //   name: 'Rails',
+  //   icon: rubyrails,
+  // },
+  // {
+  //   name: 'graphql',
+  //   icon: graphql,
+  // },
   {
     name: 'postgresql',
     icon: postgresql,
@@ -124,32 +137,25 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Front-End Developer',
-    company_name: 'Cover Hunt',
-    icon: coverhunt,
+    title: 'Software Engineer Intern',
+    company_name: 'Spruce Realty',
+    icon: spruce,
     iconBg: '#333333',
-    date: 'Aug 2021 - Feb 2022',
+    date: 'Jan 2024 - Apr 2024',
   },
   {
-    title: 'Mentor (Volunteer)',
-    company_name: 'Microverse',
-    icon: microverse,
+    title: 'AI/ML Research Intern',
+    company_name: 'Wingo Textual Analytics Database',
+    icon: wingo,
     iconBg: '#333333',
-    date: 'Mar 2022 - May 2022',
+    date: 'April 2024 - May 2024',
   },
   {
-    title: 'Junior Software Engineer',
-    company_name: 'Kelhel',
-    icon: kelhel,
+    title: 'Software Engineer Intern',
+    company_name: 'Truly',
+    icon: truly,
     iconBg: '#333333',
-    date: 'May 2022 - Oct 2022',
-  },
-  {
-    title: 'Full Stack Developer',
-    company_name: 'Diversity Cyber Council',
-    icon: dcc,
-    iconBg: '#333333',
-    date: 'Sep 2022 - Present',
+    date: 'May 2024 - Aug 2024',
   },
 ];
 

@@ -37,11 +37,16 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
+import python from './tech/python.png';
+import php from './tech/php.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
+import spruce from './company/spruce.png';
+import wingo from './company/wingo.png';
+import truly from './company/truly.png';
 
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
@@ -86,6 +91,8 @@ export {
   redux,
   tailwind,
   typescript,
+  python,
+  php,
   komikult,
   leaderboard,
   math,
@@ -96,4 +103,7 @@ export {
   dcc,
   kelhel,
   microverse,
+  spruce,
+  wingo,
+  truly,
 };
